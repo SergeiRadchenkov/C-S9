@@ -20,4 +20,4 @@ double RaiseNum(int num, int degree)
 int num = InputNum("Введите число: ");
 int pow = InputNum("Введите степень: ");
 double result = RaiseNum(num, pow);
-Console.WriteLine(result);
+Console.WriteLine($"{result:f2}");
